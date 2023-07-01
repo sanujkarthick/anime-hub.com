@@ -1,0 +1,127 @@
+button.btn{
+    background-color: cornsilk;
+    color: darkgreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px grey;
+    
+}
+
+div#button{
+    text-align: center;
+}
+.nav{
+    background-color: azure;
+    border:black solid 10px;
+    margin: 5px;
+    position: fixed;
+
+    
+
+}
+.nav>ul>li{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    font-size: 20px;
+    margin: 10px;
+}
+.nav>ul>li{
+    display: inline-block;
+}
+.nav a:hover{
+    color: rgb(237, 52, 6);
+}
+h1.pagename{
+    text-decoration: underline;
+    text-align: center;
+}
+.img{
+    background-image: url(./image/905276.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.p1{
+    background-color: dimgray;
+    font-size: 20px;
+    margin:10px;
+    padding: 10px;
+    border: 10px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cat{
+    background-color: gray;
+    padding: 25px;
+    display: inline-block;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+    background-color: grey;
+}
+.cat{
+    float:left;
+    width:25%;
+    padding:5;
+
+}
+.cat #pic{
+    width: 100%;
+    height: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.list{
+    padding: 20px;
+    border: 20px;
+}
+.task1{
+    border: black solid 5px;
+}
+.fb{
+    position: fixed;
+    color: black;
+    z-index: 2;
+    bottom: 10px;
+    right:30px;
+    background-color:white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.logo{
+    float: right;
+
+}
+.search{
+    display: flex;
+}
+.search button{
+    background-color:white;
+    border:1px solid white;
+    right: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 0px 20px;
+}
+.main input{
+    outline: none;
+    background-color: white;
+    border: 0px;
+    padding: 7px;
+}
